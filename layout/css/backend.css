@@ -1,0 +1,287 @@
+body{
+	background: #f4f4f4;
+	font-size: 16px;
+}
+    .asterisk{
+    	font-size: 30px;
+    	position: absolute;
+    	right: 30px;
+    	top: 8px;
+    	color: #d20707;
+    }
+/*start login form */
+img {
+    vertical-align: middle;
+    width: 150px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 1px solid #008dde;
+}
+.login{
+
+	width: 300px;
+	margin: 100px auto;
+}
+.login input{
+	margin-bottom: 10px;
+}
+.login .form-control{
+	background: #e5e5e5;
+	border: 1px solid #008dde;
+}
+.login .btn{
+	background: #008dde;
+}
+/*END login FORM*/
+/*start navbar*/
+
+.navbar{
+	border-radius: 0px;
+	margin-bottom: 0px;
+
+}
+.nav > li > a,.navbar-brand{
+	padding: 15px 12px;
+}
+.navbar-brand{
+	font-size: 1em;
+} 
+.navbar-inverse .navbar-nav > .open>a,  
+.navbar-inverse .navbar-nav > .open>a:focus, 
+.navbar-inverse .navbar-nav > .open>a:hover,.dropdown-menu {
+    background: #3498db;
+   
+}
+.dropdown-menu{
+	min-width: 180px;
+	padding: 0px;
+	font-size: 1em;
+	border: none;
+	border-radius: 0px;
+	
+}
+.dropdown-menu > li > a{
+	color: #fff;
+	padding: 10px 15px;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+ color: #fff;
+ background: #8e44ad;
+}
+.form-control{
+
+	position:relative;
+}
+/*end navbar*/
+/*start dashboard page*/
+
+.home-stats .stat {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;    
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.home-stats .stat a{
+	color: #e6e6e6;
+
+}
+.home-stats .stat a:hover{
+	text-decoration: none;
+}
+.home-stats .stat span{
+	display: block;
+	font-size: 40px; 
+}
+.latest{
+	margin-top: 30px;
+}
+.latest .toggle-info{
+	color: #999;
+	cursor: pointer;
+}
+
+.latest .toggle-info:hover{
+	color: #444;
+}
+.home-stats .st-members {
+background:#3498db; 0
+}
+.home-stats .st-pending{
+background: #c0392b;
+}
+.home-stats .st-item{
+background: #d35400;
+}
+.home-stats .st-comments{
+background: #8e44ad;
+}
+.latest{
+	margin-top: 20px;
+}
+.latest-users{
+	margin-bottom: 0px;
+}
+.latest-users li{
+	padding: 5px 0px;
+	overflow: hidden;
+}
+.latest-users  li:nth-child(odd){
+	background-color: #ede7e7;;
+}
+.latest-users .btn-success,.latest-users .btn-info{
+	padding:3px 8px;
+}
+.latest-users .btn-info{
+	margin-right: 5px;
+}
+
+/*End dashboard page*/
+/*start Member page*/
+h1{
+	font-size: 55px;
+	margin: 40px 0px;
+	font-weight: bold;
+	color: #666;
+}
+
+.show-pass{
+	position: absolute;
+	top: 6px;
+	right: -30px;
+}
+.main-table{
+	box-shadow: 0 3px 10px #ccc;
+}
+.main-table td{
+	background: #fff;
+	vertical-align: middle !important;
+}
+.main-table tr:first-child td{
+	background: #333;
+	color: #fff;
+	
+}
+.main-table .btn{
+ 	padding: 3px 10px;
+}
+.activate{
+	margin-left: 5px;
+}
+/*End Member page*/
+/*start catogeries page*/
+.catogeries .panel-heading{
+	color: #959595;
+	font-weight: bold;
+}
+.catogeries .panel-heading i{
+	position: relative;
+	top: 1px;
+}
+.catogeries .panrl-body{
+	padding: 0px;
+}
+.catogeries .cat{
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.catogeries .cat:hover .heading{
+	right: 10px;
+}
+.catogeries .cat .heading{
+transition: all .5s  ease-in-out;
+	position: absolute;
+	top: 15px;
+	right: -180px;
+
+}
+.catogeries .cat .heading a{
+	margin-right: 5px;
+}
+.catogeries .cat h3{
+	padding: 0px ;
+    cursor: pointer;
+    margin: 0px;
+
+}
+.catogeries .cat .full-view p{
+	margin: 10px 0px;
+	color: #707070;
+}
+	.catogeries hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+.catogeries .cat:last-of-type~hr {
+	display: none;
+}
+.catogeries .cat .Visibility{
+	background: #d35400 ;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 10px;
+	border-radius: 6px;
+}
+.catogeries .cat .Price{
+	background: #5cb85c;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 10px;
+	border-radius: 6px;
+}
+.catogeries .cat .ordering{
+	background: #f0ad4e;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 10px;
+	border-radius: 6px;
+}
+.catogeries .cat .Approved{
+	background: #c8392b;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 10px;
+	border-radius: 6px;
+}
+.catogeries .cat .Location{
+	background: #5bc0de;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 10px;
+	border-radius: 6px;
+}
+.catogeries .cat .Allow_Comment{
+	background: #2c3e50;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 10px;
+	border-radius: 6px;
+}
+.catogeries .option a{
+	color: #888;
+	text-decoration: none;
+
+}
+.catogeries .option span{
+	color: #888;
+	cursor: pointer;
+
+}
+.catogeries .option .active{
+	color: #f00;
+}
+
+/*End catogeries page*/
+/*start Items page*/
+select{
+	background: #eee;
+}
+/*End Items page*/
